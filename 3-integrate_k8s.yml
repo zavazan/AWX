@@ -1,6 +1,6 @@
 ---
 - name: Deploy nginx pod
-  hosts: 192.168.5.8
+  hosts: localhost
   gather_facts: no
 
   vars:
