@@ -1,6 +1,6 @@
 ---
 - name: Deploy nginx container with custom webpage (module-based)
-  hosts: localhost
+  hosts: 10.0.4.240
   gather_facts: no
 
   vars:
